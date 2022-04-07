@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wow_engine/ui/home/homepage.dart';
+import 'package:wow_engine/ui/home/login.dart';
 
 class WowEngineApp extends StatelessWidget {
   const WowEngineApp({Key? key}) : super(key: key);
@@ -11,7 +11,7 @@ class WowEngineApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.brown,
       ),
-      home: HomePage(title: 'WoW Engine'),
+      home: const Login(title: 'WoW Engine'),
 
 
 
